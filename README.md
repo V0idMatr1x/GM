@@ -16,7 +16,7 @@
 - After your Workspace has been generated, it will walk itself `$HOME`.
 - This means that you don't have to add it to `$PATH`
 - You can simply create a bash/zsh alias to call the binary from the `/src` of the repo.
-  - Configuration: In your `~/.zshrc` `alias galaxy="$HOME/GM/src/ && ./gm && $HOME"`
+  - Configuration: In your `~/.zshrc` `alias gm="$HOME/GM/src/ && ./gm && $HOME"`
 
 ### The Workspace API
 A Workspace simply refer's to an individual development environent.
